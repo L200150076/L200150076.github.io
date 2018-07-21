@@ -42,7 +42,7 @@
 							        // the custom panorama 'reception' which we check for below.
 							        var panorama = new google.maps.StreetViewPanorama(
 							          document.getElementById('map'), {
-							            pano: 'Ngadirejo',
+							            pano: 'Cikcik',
 							            visible: true,
 							            panoProvider: getCustomPanorama
 							        });
@@ -58,11 +58,11 @@
 							      // Construct the appropriate StreetViewPanoramaData given
 							      // the passed pano IDs.
 							      function getCustomPanorama(pano, zoom, tileX, tileY) {
-							        if (pano === 'Ngadirejo') {
+							        if (pano === 'Cikcik') {
 							          return {
 							            location: {
-							              pano: 'Ngadirejo',
-							              description: 'Perumahan Villa Ngadirejo'
+							              pano: 'Cikcik',
+							              description: 'Toko Cik Cik'
 							            },
 							            links: [],
 							            // The text for the copyright control.
